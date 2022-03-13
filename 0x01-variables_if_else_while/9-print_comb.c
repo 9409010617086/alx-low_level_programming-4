@@ -22,7 +22,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(num + i)
+			putchar(num + i);
 		}
 	}
 
