@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i < 26; ++i)
 	{
 		ch1 = ch + i;
-		if (ch1 == 'e'  ch1 == 'q')
+		if (ch1 == 'e' || ch1 == 'q')
 		{
 			continue;
 		}
