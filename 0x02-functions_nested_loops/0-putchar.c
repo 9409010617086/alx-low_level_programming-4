@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
- *
+ * main.h is the header file containing the prototypes
  * Return: Always 0 (Success)
  */
 int main(void)
