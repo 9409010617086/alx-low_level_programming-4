@@ -7,23 +7,16 @@
  */
 int main(void)
 {
-	int num1;
-	int num2;
-	int i;
-	int j;
-	int num3;
-	int num4;
+	int num1, num2, i, j, num3, num4;
 
 	num1 = '0';
 	num2 = '0';
-
 	for (i = 0; i < 10; ++i)
 	{
 		num3 = num1 + i;
 		for (j = 0; j < 10; ++j)
 		{
 			num4 = num2 + j;
-
 			if (num3 == num4)
 			{
 				continue;
@@ -36,7 +29,6 @@ int main(void)
 			{
 				putchar(num3);
 				putchar(num4);
-
 				if (num3 < '8')
 				{
 					putchar(',');
