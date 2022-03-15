@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- *
+ * Description: Prints a-z in small caps
  * Return: Always 0 (Success)
  */
 void print_alphabet(void)
