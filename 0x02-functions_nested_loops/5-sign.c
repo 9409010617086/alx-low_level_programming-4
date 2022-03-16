@@ -2,12 +2,13 @@
 
 /**
  * print_sign - function that prints the sign of a number.
- * @n - an integer parameter.
+ * @n: An integer parameter.
  * Return: An int.
  */
 int print_sign(int n)
 {
 	int value;
+
 	if (n > 0)
 	{
 		value = 1;
@@ -19,7 +20,7 @@ int print_sign(int n)
 		_putchar('0');
 	}
 	else
-        {
+	{
 		value = -1;
                 _putchar('-');
         }
