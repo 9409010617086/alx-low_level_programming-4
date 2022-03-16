@@ -5,7 +5,7 @@
  * @last_dt: An integer parameter.
  * Return: An int.
  */
-print_last_digit(int last_dt)
+int print_last_digit(int last_dt)
 {
 	last_dt = last_dt % 10;
 	return (last_dt);
