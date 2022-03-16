@@ -9,6 +9,6 @@ int print_last_digit(int last_dt)
 {
 	int n;
 	n = last_dt % 10;
-	_putchar(n);
+	_putchar('0' + n);
 	return (last_dt % 10);
 }
