@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - Prints the minutes of the day.
- * 
  * Return: void.
  */
 void jack_bauer(void)
@@ -25,7 +24,7 @@ void jack_bauer(void)
 					g = d + k;
 					h = d + l;
 
-					if (e == '2' && f >= '4' )
+					if (e == '2' && f >= '4')
 					{
 						break;
 					}
@@ -36,7 +35,7 @@ void jack_bauer(void)
 						_putchar(':');
 						_putchar(g);
 						_putchar(h);
-						_putchar('\t');
+						_putchar('\n');
 					}
 				}
 			}
