@@ -27,20 +27,19 @@ void jack_bauer(void)
 
 					if (e == '2' && f >= '4' )
 					{
-						exit;
+						break;
 					}
 					else
 					{
-						putchar(e);
-						putchar(f);
-						putchar(':');
-						putchar(g);
-						putchar(h);
-						putchar('\t');
+						_putchar(e);
+						_putchar(f);
+						_putchar(':');
+						_putchar(g);
+						_putchar(h);
+						_putchar('\t');
 					}
 				}
 			}
 		}
 	}
-	return (0);
 }
