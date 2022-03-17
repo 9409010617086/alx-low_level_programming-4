@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - Prints the minutes of the day.
+ * add - add two numbers.
  * @num1: An interger parameter.
  * @num2: An interger parameter.
  * Return: An int.
