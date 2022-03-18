@@ -6,7 +6,7 @@
  */
 void more_numbers(void)
 {
-	char num[25];
+	char num[21];
 	int i, j;
 
 	num[21] = "01234567891011121314";
