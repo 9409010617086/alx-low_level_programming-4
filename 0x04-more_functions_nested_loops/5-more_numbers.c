@@ -6,10 +6,8 @@
  */
 void more_numbers(void)
 {
-	char num[21];
 	int i, j;
-
-	num[21] = "01234567891011121314";
+	char num[21] = "01234567891011121314";
 
 	for (i = 0; i < 10; i++)
 	{
