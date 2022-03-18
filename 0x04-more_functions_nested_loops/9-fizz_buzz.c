@@ -2,7 +2,7 @@
 
 /**
  * main - 1 to 100
- * Return: Void.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
