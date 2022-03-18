@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - function that prints the numbers followed by a new line.
- * 
  * Return: Void.
  */
 void print_numbers(void)
