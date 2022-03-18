@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - 1 to 100, 3x replaced with Fizz, 5x replaced with Buzz, 3x and 5x replaced with FizzBuzz
+ * main - 1 to 100
  * Return: Void.
  */
 int main(void)
