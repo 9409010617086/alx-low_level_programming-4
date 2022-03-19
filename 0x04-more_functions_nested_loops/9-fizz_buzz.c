@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - 1 to 100
- * Return: Always 0 (Success)
+ * main - 1 to 100.
+ *
+ * Return: Always 0 (Success).
  */
 int main(void)
 {
@@ -24,14 +25,15 @@ int main(void)
 		}
 		else 
 		{
-			printf("%d", num);
+			printf<F11>("%d", num);
 		}
 
 		if (num != 100)
 		{
-			printf(" ");
+			putchar(' ');
 		}
 	}
-	printf("\n");
+	putchar('\n');
+
 	return (0);
 }
