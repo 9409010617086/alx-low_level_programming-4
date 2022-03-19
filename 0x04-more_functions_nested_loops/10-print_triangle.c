@@ -2,10 +2,10 @@
 
 /**
  * print_triangles - function that prints a trian
- * @n: An integer.
+ * @size: An integer.
  * Return: void.
  */
-void print_triangles(int n)
+void print_triangles(int size)
 {
 	int i, j, k;
 
