@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_triangles - function that prints a triangle, followed by a new line.
+ * print_triangles - function that prints a trian
  * @n: An integer.
- * Return: Void.
+ * Return: void.
  */
 void print_triangles(int n)
 {
@@ -11,7 +11,7 @@ void print_triangles(int n)
 
 	if (n <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 	else
 	{
@@ -19,13 +19,13 @@ void print_triangles(int n)
 		{
 			for (j = 0; j < n - 1 - i; j++)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
-			for (k = 0; k < i; k++)
+			for (k = 0; k < i + 1; k++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 }
