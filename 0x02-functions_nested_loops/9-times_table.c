@@ -5,7 +5,7 @@
  *
  * Return: void.
  */
- 
+
 void times_table(void)
 {
 	int i;
