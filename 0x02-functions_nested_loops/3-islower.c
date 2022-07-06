@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /*
-* 3-isloweer.c - Checks if a character is a lowercase.
+* _isloweer - Checks if a character is a lowercase.
+* @c - An integer parameter
+* Return: O if not a lowercase, and 1 if an uppercase.
 */
 
 int _islower(int c)
