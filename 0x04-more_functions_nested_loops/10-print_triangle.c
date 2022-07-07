@@ -1,31 +1,33 @@
 #include "main.h"
 
 /**
- * print_triangles - function that prints a trian
- * @size: An integer.
+ * print_triangles - function that prints a triangle.
+ * @size: An integer parameter.
  * Return: void.
  */
-void print_triangles(int size)
+void print_triangle(int size)
 {
-	int i, j, k;
+	int i;
+	int j;
+	int k;
 
 	if (size <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
-	else
+
+	for (i = 0; i < size; i++)
 	{
-		for (i = 0; i < size; i++)
+		for (k = size - 1; k > i; k--)
 		{
-			for (j = 0; j < size - 1 - i; j++)
-			{
-				_putchar(' ');
-			}
-			for (k = 0; k < i + 1; k++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
+			putchar(' ');
 		}
+
+		for (j = 0; j < i + 1; j++)
+		{
+			putchar('#');
+		}
+
+		putchar('\n');
 	}
 }
