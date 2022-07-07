@@ -2,12 +2,12 @@
 
 /**
  * main - check the readme.
- *                                                 * Return: Always 0 (Success).
+ * Return: Always 0 (Success).
  */
 int main(void)
 {
         int num;
-                                                          for (num = 1; num <= 100; num++)
+	for (num = 1; num <= 100; num++)
         {
                 if (num % 3 == 0 && num % 5 == 0)
                 {
@@ -21,7 +21,8 @@ int main(void)
                 {
                         printf("Buzz");
                 }
-		else                                              {
+		else
+		{
                         printf("%d", num);
                 }
 
