@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - check the readme.
+ * main - Prints 1 - 100; for multiples of three prints Fizz;
+ * for multiples of 5, prints Buzz;
+ * for multiples of both 3 and 5, prints FizzBuzz.
+ *
  * Return: Always 0 (Success).
  */
 int main(void)
