@@ -9,22 +9,18 @@
 
 int main(void)
 {
-	long i;
-	long j;
-
-	long prime[20];
-	j = 0;
+	int i;
+	int prime;
 
 	for (i = 2; i < 612852475143/2; i++)
 	{
 		if (612852475143 % i == 0)
 		{
-			prime[j] = i;
-			j++;
+			prime = i;
 		}
 	}
 
-	printf("%d\n", prime[j]);
-
+	printf("%d", prime);
+	system("pause");
 	return (0);
 }
