@@ -7,20 +7,32 @@
  * Return: Always 0 (Success).
  */
 
-int main(void)
+int main()
 {
-	int i;
-	int prime;
+   long int n = 612852475143;
+   long int div = 2;
+   long int ans = 0;
+   long int prime;
 
-	for (i = 2; i < 612852475143/2; i++)
-	{
-		if (612852475143 % i == 0)
-		{
-			prime = i;
-		}
-	}
+   while(n != 0)
+   {
+      if (n % div != 0)
+         div = div + 1;
 
-	printf("%d", prime);
-	system("pause");
-	return (0);
+      else
+	  {
+         prime = n;
+         n = n / div;
+
+         if(n == 1)
+		 {
+            printf("%d", prime);
+            ans = 1;
+            break;
+         }
+      }
+   }
+
+   system("pause");
+   return (0);
 }
