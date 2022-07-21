@@ -33,7 +33,7 @@ int prime(int num, int index)
 	if (num % index == 0)
 		return (0);
 
-	if (index > num/2 + 1)
+	if (index > num / 2 + 1)
 		return (1);
 
 	return (prime(num, index + 1));
