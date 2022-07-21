@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _sqrt(int, int);
+int prime(int, int);
 
 /**
  * is_prime_number - function that returns 1 if input is a prime, else 0.
