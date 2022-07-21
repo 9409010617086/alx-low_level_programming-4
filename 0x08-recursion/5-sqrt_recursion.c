@@ -30,5 +30,5 @@ int _sqrt(int num, int index)
 	if (index > num)
 		return (-1);
 
-	_sqrt(num, index + 1);
+	return (_sqrt(num, index + 1));
 }
