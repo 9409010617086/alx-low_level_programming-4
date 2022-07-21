@@ -1,5 +1,7 @@
 #include "main.h"
 
+int _sqrt_recursion(int n);
+
 /**
  * _sqrt_recursion - a function that returns the square root of a number.
  * _sqrt - a function that checks if a number has a square root.
