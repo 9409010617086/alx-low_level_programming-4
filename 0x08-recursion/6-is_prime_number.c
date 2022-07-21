@@ -12,6 +12,7 @@ int prime(int, int);
 int is_prime_number(int n)
 {
 	int index = 2;
+
 	return (prime(n, index));
 }
 
