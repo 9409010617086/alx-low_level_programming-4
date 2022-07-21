@@ -22,7 +22,8 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, index));
 }
 
-/* _sqrt - a function that checks if a number has
+/**
+ * _sqrt - a function that checks if a number has
 a square root.
  *
  * @num: An integer parameter.
