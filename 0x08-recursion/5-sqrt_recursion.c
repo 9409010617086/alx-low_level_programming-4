@@ -19,8 +19,17 @@ int _sqrt_recursion(int n)
 	if (n < 1)
 		return (-1);
 
-	return _sqrt(n, index);
+	return (_sqrt(n, index));
 }
+
+/* _sqrt - a function that checks if a number has
+a square root.
+ *
+ * @num: An integer parameter.
+ * @index: An integer parameter.
+ *
+ * Return: An integer.
+ */
 
 int _sqrt(int num, int index)
 {
