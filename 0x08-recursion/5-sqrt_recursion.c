@@ -7,8 +7,6 @@ int _sqrt(int, int);
  * _sqrt - a function that checks if a number has a square root.
  *
  * @n: An integer parameter.
- * @num: An integer parameter.
- * @index: An integer parameter.
  *
  * Return: An integer.
  */
