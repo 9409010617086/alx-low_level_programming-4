@@ -4,7 +4,6 @@ int _sqrt(int, int);
 
 /**
  * _sqrt_recursion - a function that returns the square root of a number.
- * _sqrt - a function that checks if a number has a square root.
  *
  * @n: An integer parameter.
  *
