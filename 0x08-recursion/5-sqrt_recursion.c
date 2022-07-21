@@ -20,8 +20,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt - a function that checks if a number has
-a square root.
+ * _sqrt - a function that checks if a number s has a square root.
  *
  * @num: An integer parameter.
  * @index: An integer parameter.
