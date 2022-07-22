@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	{
 		if (atoi(argv[i]) % 2 != 0 || atoi(argv[i]) % 2 != 1 || atoi(argv[i]) % 2 < 0)
 		{
-			printf("Ërror\n");
+			printf("Error\n");
 			return (1);
 		}
 		else
