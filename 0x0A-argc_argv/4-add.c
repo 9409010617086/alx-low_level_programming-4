@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int count;
+	int i;
 	int addition = 0;
 
 	if (argc < 2)
@@ -21,16 +21,16 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (count = 0; count < argc; count++)
+	for (i = 0; i < argc; i++)
 	{
-		if (atoi(argv[count]) % 2 != 0 || atoi(argv[count]) % 2 != 1)
+		if (atoi(argv[i]) % 2 != 0 || atoi(argv[i]) % 2 != 1 || atoi(argv[i]) % 2 < 0)
 		{
 			printf("Ërror\n");
 			return (1);
 		}
 		else
 		{
-			addition += atoi(argv[count]);
+			addition += atoi(argv[i]);
 		}
 	}
 
