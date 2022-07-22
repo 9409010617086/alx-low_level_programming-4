@@ -2,21 +2,22 @@
 #include <stdlib.h>
 
 /**
- * main - a program that prints the min no. of coins to make change for an amount of money.
+ * main - Prints the min no. of coins to make change for an amount.
  * @argc: Interger parameter to count all number of arguments.
  * @argv: Argument vector.
+ *
  * Return: 0 if successful, and 1 if unsuccessful.
  */
 
 int main(int argc, char *argv[])
 {
 	int num = 0;
-
 	int cent = atoi(argv[1]);
 
 	if (argc != 2)
 	{
 		printf("Error\n");
+
 		return (1);
 	}
 	if (cent >= 25)
@@ -45,5 +46,6 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%d\n", num);
+
 	return (0);
 }
