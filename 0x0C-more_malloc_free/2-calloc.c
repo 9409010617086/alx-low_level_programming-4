@@ -25,7 +25,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (call_oc == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < (size * nmemb); i++)
 		call_oc[i] = '\0';
 
 	return ((void *)call_oc);
