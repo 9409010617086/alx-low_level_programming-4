@@ -11,7 +11,6 @@
  * NULL if nmemb or size = NULL,
  * NULL if function fails.
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *call_oc;
