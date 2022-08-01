@@ -6,9 +6,8 @@
  * @size: An unsigned int parameter.
  * @nmemeb: An unsigned int parameter.
  *
- * Return: A pointer to the allocated memory,
- * NULL if nmemb or size = NULL,
- * NULL if function fails.
+ * Return: A pointer to the allocated memory.
+ * Otherwise - NULL if nmemb or size = NULL, or the function fails.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
