@@ -6,8 +6,6 @@
  * @name: A pointer to char parameter.
  * @age: An integer parameter.
  * @owner: A pointer to char parameter.
- *
- * Return: void.
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
