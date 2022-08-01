@@ -3,7 +3,6 @@
 
 /**
  * _calloc - a function that allocates memory for an array, using malloc.
- *
  * @size: An unsigned int parameter.
  * @nmemeb: An unsigned int parameter.
  *
