@@ -7,7 +7,6 @@
  * Return: Status value of 98 if it fails,
  * else a pointer to the allocated memory.
  */
- 
 void *malloc_checked(unsigned int b)
 {
 	void *str = malloc(b);
