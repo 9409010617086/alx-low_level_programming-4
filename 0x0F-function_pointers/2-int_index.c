@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - Function that searches for an integer.
+ * int_index - Function that searches for an integer.
  * @array: An array of integers.
- * @size: number of elements in the array 
- * @cmp:pointer to the function to be used to compare values.
+ * @size: Number of elements in the array 
+ * @cmp: Pointer to the function to be used to compare values.
  *
  * Return: The index where the cmp returns a value.
  * Otherwise: -1 if size <= 0, or there is no match.
