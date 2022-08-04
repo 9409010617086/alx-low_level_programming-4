@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
+#include <stddef.h> // For size_t
 
 /**
  * array_iterator - Executes a function as parameter on elements of an array.
