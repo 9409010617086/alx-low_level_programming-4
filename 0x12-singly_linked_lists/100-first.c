@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* The constructor attribute causes before_main() to excute before main(). */
-void before_main (void) __attribute__ ((constructor));
+void before_main(void)__attribute__((constructor));
 
 /**
  * before_main - Function that prints before main is executed.
