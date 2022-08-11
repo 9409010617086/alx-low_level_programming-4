@@ -1,10 +1,7 @@
-/**
- * main - Hello, Holberton
- * Return: Always 0.
- */
-int main(void)
-{
-	register char* arg2 asm("rsi") = "Hello, Holberton\n";
-	asm("mov $1, %rax; mov $1, %rdi; mov $14, %rdx; syscall;");
-	return (0);
-}
+org 0x100
+mov dx, msg
+mov ah, 9
+int 0x21
+mov ah, 0x4c
+int 0x21
+msg db 'Hello, Holberton\n', 0x0d, 0x0a, '$'
