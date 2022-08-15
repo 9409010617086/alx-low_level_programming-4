@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - Adds a new node at the beginning of a listint_t list.
+ * listint_int add_nodeint - Adds a new node at the start of a listint_t list.
  * @head: Pointer to singly list head.
  * @n: Const integer for the new node.
  * Return: size_t.
