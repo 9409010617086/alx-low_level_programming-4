@@ -14,9 +14,13 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd; /* file descriptor */
+	int write_file;
 	int count = 0; /* For the size of text_content */
 
 	if (filename == NULL)
+		return (-1);
+
+	if (fd == -1)
 		return (-1);
 
 	/* Create the file if it does not exist with rw-------, else
@@ -29,8 +33,10 @@ int create_file(const char *filename, char *text_content)
 		while (*(text_content + count) != '\0')
 			count++;
 
-		write(fd, text_content, count);
+		write_file = write(fd, text_content, count);
 	}
+	if (write_file == -1)
+		return (-1);
 
 	close (fd);
 	return (1);
