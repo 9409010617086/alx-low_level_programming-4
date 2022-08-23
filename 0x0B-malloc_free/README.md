@@ -9,6 +9,6 @@
 * main.h - Header file that contain all the prototypes of function in the C fies.
 
 ## Useful Resource
-* [Dynamic memory allocation in C - malloc calloc realloc free](https://www.youtube.com/watch?v=xDVC3wKjS64)
+* [Dynamic memory allocation in C - malloc calloc realloc free - YouTube](https://www.youtube.com/watch?v=xDVC3wKjS64)
 
-* [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
+* [c - Do I cast the result of malloc? - Stack Overflow](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
