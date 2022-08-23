@@ -42,6 +42,7 @@ cat hello
 * 1-main.c - Test file for 1-create_file.c
 * 2-main.c - Test file for 2-append_text_to_file.c
 * is_love_a_lost_cause - File use in the opening and copying from one file ro another file operation.
+* main.h - Header file containing prototypes of functions used in the C files.
 ## Useful Resources
 * [File descriptor _ Wikipedia](https://en.wikipedia.org/wiki/File_descriptor)
 * [C Programming in Linux Tutorial #024 - open() read() write() Functions - Wikipedia](https://youtu.be/dP3N8g7h8gY)
